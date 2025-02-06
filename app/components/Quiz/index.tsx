@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import {  useState } from 'react';
+import { useState } from 'react';
 // import './Quiz.css';
 
 const questions = [
@@ -27,12 +27,12 @@ const questions = [
 ];
 
 function App() {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [score, setScore] = useState(0);
-  const [showScore, setShowScore] = useState(false);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [currentQuestion, setCurrentQuestion] = useState<number>(0);
+  const [score, setScore] = useState<number>(0);
+  const [showScore, setShowScore] = useState<boolean>(false);
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
 
-  const handleAnswerClick = (option) => {
+  const handleAnswerClick = (option: string) => {
     setSelectedAnswer(option);
     if (option === questions[currentQuestion].correctAnswer) {
       setScore(score + 1);
