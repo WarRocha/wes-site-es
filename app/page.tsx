@@ -27,7 +27,7 @@ export default function Home() {
       {/* <Ourteam /> */}
       {/* <Featured /> */}
       <Manage />
-      {/* <Quiz/> */}
+      <Quiz/>
       <FAQ />
       {/* <Testimonials /> */}
       {/* <Articles /> */}
