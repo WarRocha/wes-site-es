@@ -15,8 +15,7 @@ const Banner = () => {
                         <h1 className='text-6xl lg:text-70xl font-bold text-blue'>
                             Aulas de espanhol online<br />
                         </h1>
-                        <p className="font-medium text-blue text-2xl mt-5 text-center lg:text-start">Você já se cansou de aulas gravadas, sem a oportunidade de interagir ao vivo com um professor? Eu estou aqui para mudar isso!
-Com uma abordagem personalizada, meu objetivo é ajudar brasileiros a <strong>dominar o espanhol</strong> de forma prática e eficiente. Com ampla experiência no ensino de línguas e um profundo conhecimento das variantes culturais e linguísticas do espanhol, ofereço aulas ao vivo, adaptadas às suas necessidades e aos seus objetivos. Cada aula começa com uma análise do seu perfil, para que possamos focar no que você realmente precisa: seja comunicação, gramática, leitura ou exercícios específicos. Aqui, você é o centro da aprendizagem, e cada aula é feita sob medida para você.
+                        <p className="font-medium text-blue text-2xl mt-5 text-center lg:text-start">Cansado de aulas gravadas sem interação? Ofereço aulas de espanhol ao vivo e personalizadas, focadas nas suas necessidades: comunicação, gramática ou leitura. Com experiência e conhecimento cultural, ensino de forma prática e eficiente. Aqui, o aprendizado é feito sob medida para você!
 </p>
                     </div>
                     <div className='my-7 text-center lg:text-start'>
@@ -31,7 +30,7 @@ Com uma abordagem personalizada, meu objetivo é ajudar brasileiros a <strong>do
                 {/* COLUMN-2 */}
 
                 <div className=' lg:pt-20 hidden lg:block'>
-                    <Image src="/images/banner/banner.svg" alt="hero-image" width={700} height={542} />
+                    <Image src="images/banner/banner.svg" alt="hero-image" width={700} height={542} />
                 </div>
 
             </div>
