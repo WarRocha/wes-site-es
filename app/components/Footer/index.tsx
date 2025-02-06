@@ -39,7 +39,7 @@ const footer = () => {
                         <span className='text-white text-2xl  leading-9 mb-4 lg:mb-20'>WhatsApp: (+55) 11 949612697</span>
                         <div className='flex gap-4 lg:mt-20'>
                             <div className='footer-icons'>
-                                <Link href="https://www.linkedin.com/in/wesley-santos-rocha-171603ab/"><Image src={'/images/footer/linkdin.svg'} alt="facebook" width={20} height={20} /></Link>
+                                <Link href="https://www.linkedin.com/in/wesley-santos-rocha-171603ab/"><Image src={'images/footer/linkdin.svg'} alt="facebook" width={20} height={20} /></Link>
                             </div>
                             {/* <div className='footer-icons'>
                                 <Link href="https://wa.me/whatsappphonenumber"><Image src={'/images/footer/whatsapp-footer.svg'} alt="whatsapp" width={20} height={20} /></Link>
@@ -91,7 +91,7 @@ const footer = () => {
             <div className="z-50 fixed bottom-10 left-10 w-fit">
                     <a href="https://wa.me/5511949612697" target="_blank">
                     <Image
-                        src="/images/footer/whatsapp.svg"
+                        src="images/footer/whatsapp.svg"
                         alt="WhatsApp Button"
                         width={50}
                         height={50}
