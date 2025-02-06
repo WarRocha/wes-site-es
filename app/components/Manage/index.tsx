@@ -61,7 +61,7 @@ const Manage = () => {
     return (
         <div id="services-section">
             <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
-                <h3 className='text-center text-4xl sm:text-20xl text-blue'>Ofereço três modalidades de aulas, pensadas para se ajustarà sua rotina e necessidades, com duração e frequência específicas: </h3>
+                <h3 className='text-center text-4xl sm:text-20xl text-treetop'>Ofereço três opções de aulas, adaptáveis à sua rotina e necessidades, com duração e frequência flexíveis.</h3>
 
 
                 {/* <div className='md:flex md:justify-around mt-20'>
@@ -111,7 +111,7 @@ const Manage = () => {
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.templates}</h3>
                             {/* <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.view}</h3> */}
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.support}</h3>
-                            <button className='text-sm font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6'>{items.button}</button>
+                            <button className='text-sm font-bold text-treetop bg-transparent hover:bg-blue hover:text-white border-2 border-treetop rounded-full py-4 px-12 mb-6'>{items.button}</button>
                             <hr style={{ color: "darkgrey", width: "50%", margin: "auto" }}/>
                         </div>
                     ))}

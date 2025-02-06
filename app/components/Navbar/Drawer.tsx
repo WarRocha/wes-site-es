@@ -31,7 +31,7 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
                     <header className="px-4 py-4 flex items-center">
 
                         <div className="flex flex-shrink-0 items-center border-right">
-                            <Link href="/" className='text-2xl font-semibold text-blue'>
+                            <Link href="/" className='text-2xl font-semibold text-treetop'>
                                 Weslei Rocha 
                             </Link>
                         </div>

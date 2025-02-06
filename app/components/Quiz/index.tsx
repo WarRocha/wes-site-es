@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div className="text-center  bg-lightgrey py-24">
-      <h1 className="text-center text-4xl sm:text-20xl text-blue font-semibold ">Quiz de Espanhol</h1>
+      <h1 className="text-center text-4xl sm:text-20xl text-treetop font-semibold ">Quiz de Espanhol</h1>
       {showScore ? (
         <div className="score-section">
           <h2 className='text-sm font-medium text-darkgrey mb-3 mt-6'>Você acertou {score} de {questions.length} perguntas!</h2>
@@ -73,7 +73,7 @@ function App() {
               <button
                 key={index}
                 onClick={() => handleAnswerClick(option)}
-                className={selectedAnswer === option ? 'border-blue rounded-full py-4 px-12 mb-6 bg-blue text-offwhite text-sm font-bold' : 'text-sm font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6'}
+                className={selectedAnswer === option ? 'border-treetop rounded-full py-4 px-12 mb-6 bg-blue text-offwhite text-sm font-bold' : 'text-sm font-bold text-treetop bg-transparent hover:bg-blue hover:text-white border-2 border-treetop rounded-full py-4 px-12 mb-6'}
               >
                 {option}
               </button>

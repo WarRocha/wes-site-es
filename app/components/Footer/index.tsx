@@ -28,7 +28,7 @@ const products: ProductType[] = [
 
 const footer = () => {
     return (
-        <div className="bg-blue -mt-10" id="first-section">
+        <div className="bg-treetop -mt-10" id="first-section">
             <div className="mx-auto max-w-2xl pt-40 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="mt-5 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
 

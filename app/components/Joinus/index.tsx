@@ -5,9 +5,9 @@ const Join = () => {
             <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
 
                 <div className="text-center">
-                    {/* <h3 className="text-blue text-lg font-normal tracking-widest">JOIN US</h3> */}
-                    <h2 className="text-4xl sm:text-6xl font-bold my-6 leading-10 text-blue"> Leve seu negócio<br />  para um novo patamar.</h2>
-                    <p className="text-lightblack text-base font-normal">Craven omni memoria patriae zombieland clairvius narcisse religionis sunt diri undead <br /> historiarum. Golums, zombies unrelenting et Raimi fascinati beheading.</p>
+                    {/* <h3 className="text-treetop text-lg font-normal tracking-widest">JOIN US</h3> */}
+                    <h2 className="text-4xl sm:text-6xl font-bold my-6 leading-10 text-treetop"> Leve seu negócio<br />  para um novo patamar.</h2>
+                    <p className="text-treetop text-base font-normal">Craven omni memoria patriae zombieland clairvius narcisse religionis sunt diri undead <br /> historiarum. Golums, zombies unrelenting et Raimi fascinati beheading.</p>
                 </div>
 
                 <div className="mx-auto max-w-4xl pt-5">
