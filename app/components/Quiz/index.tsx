@@ -73,7 +73,7 @@ function App() {
               <button
                 key={index}
                 onClick={() => handleAnswerClick(option)}
-                className={selectedAnswer === option ? 'border-treetop rounded-full py-4 px-12 mb-6 bg-blue text-offwhite text-sm font-bold' : 'text-sm font-bold text-treetop bg-transparent hover:bg-blue hover:text-white border-2 border-treetop rounded-full py-4 px-12 mb-6'}
+                className={selectedAnswer === option ? 'border-treetop rounded-full py-4 px-12 mb-6 bg-treetop text-offwhite text-sm font-bold' : 'text-sm font-bold text-treetop bg-transparent hover:bg-treetop hover:text-white border-2 border-treetop rounded-full py-4 px-12 mb-6'}
               >
                 {option}
               </button>
