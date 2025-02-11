@@ -6,7 +6,7 @@ import { useState } from 'react';
 const questions = [
   {
     question: "Como se diz 'Olá' em espanhol?",
-    options: ["Hola", "Adiós", "Gracias", "Por favor"],
+    options: ["Hola", "Adiós", "Gracias", "Hallo"],
     correctAnswer: "Hola"
   },
   {
@@ -81,7 +81,7 @@ function App() {
           </div>
           <div className="navigation-section text-2xl font-bold mb-3">
             <button onClick={handleNextQuestion}>
-              {currentQuestion + 1 < questions.length ? 'Próxima Pergunta' : 'Finalizar Quiz'}
+              {currentQuestion + 1 < questions.length ? 'Próxima Pergunta >' : 'Finalizar Quiz'}
             </button>
           </div>
         </div>

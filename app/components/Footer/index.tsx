@@ -30,7 +30,7 @@ const footer = () => {
     return (
         <div className="bg-treetop -mt-10" id="first-section">
             <div className="mx-auto max-w-2xl pt-40 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-                <div className="mt-5 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
+                <div className="mt-5 grid gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
 
                     {/* COLUMN-1 */}
 
@@ -89,7 +89,7 @@ const footer = () => {
             </div>
 
             <div className="z-50 fixed bottom-10 left-10 w-fit">
-                    <a href="https://wa.me/5511949612697" target="_blank">
+                    <a href="https://wa.me/5511949612697?text=Olá! Tenho interesse em saber mais sobre as aulas de espanhol. Poderia me fornecer mais informações, por favor?" target="_blank">
                     <Image
                         src="images/footer/whatsapp.svg"
                         alt="WhatsApp Button"

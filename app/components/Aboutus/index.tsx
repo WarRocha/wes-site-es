@@ -74,7 +74,7 @@ const Aboutus = () => {
                 <p className='text-center text-2xl lg:text-24xl  text-treetop'>Meu método combina prática comunicativa, gramática aplicada e imersão cultural para um aprendizado completo e envolvente. As aulas são personalizadas conforme seus objetivos, usando materiais autênticos como vídeos, músicas e textos, além de exercícios adaptados ao seu nível.</p>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
                     {Aboutdata.map((item, i) => (
-                        <div key={i} className='hover:bg-navyblue bg-white rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl group mb-20'>
+                        <div key={i} className='hover:bg-navyblue bg-white rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl group mb-5'>
                             <h4 className='text-4xl font-semibold  text-treetop mb-5 group-hover:text-white'>{item.heading}</h4>
                             {/* <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={100} className="mb-5" /> */}
                             <p className='text-lg font-normal text-treetop group-hover:text-offwhite mb-5'>{item.paragraph}</p>
