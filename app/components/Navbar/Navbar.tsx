@@ -38,11 +38,16 @@ const Navbar = () => {
 
                             {/* LOGO */}
 
-                            <div className="flex flex-shrink-0 items-center border-right">
+                            <div className="flex flex-col justify-center flex-shrink-0  border-right">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-treetop'>
-                                    Weslei Rocha
+                                    Weslei Rocha 
                                 </Link>
+                                <h2 className='text-sm  text-treetop'>
+                                    professor de espanhol
+                                </h2>
                             </div>
+
+            
 
                             {/* LINKS */}
 

@@ -25,7 +25,7 @@ const Aboutdata: datatype[] = [
     {
         heading: "Atividades práticas",
         imgSrc: "/images/aboutus/imgThree.svg",
-        paragraph: 'Finalizamos com exercícios interativos, como interpretação de textos, audições e tarefas criativas, para consolidar o conteúdo aprendido. Também exploramos aspectos culturais e regionais com materiais autênticos, estimulando o contato com o espanhol real e diverso. (Aqui você aprende temas novos!)',
+        paragraph: 'Resumo: Realizamos exercícios interativos, como interpretação de textos, audições e tarefas criativas, além de explorar aspectos culturais com materiais autênticos, promovendo o contato com o espanhol real e diverso. (Aqui você aprende temas novos!)',
         link: ''
     },
 ]
@@ -71,7 +71,7 @@ const Aboutus = () => {
             <div className='mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 bg-lightgrey rounded-3xl relative'>
                 <Image src="images/aboutus/dots.svg" width={100} height={100} alt="dots-image" className="absolute bottom-1 -left-20" />
                 <h3 className='text-center text-treetop text-4xl tracking-widest'>Meu método</h3>
-                <p className='text-center text-2xl lg:text-24xl  text-treetop'>Meu método combina prática comunicativa, gramática aplicada e imersão cultural para um aprendizado completo e envolvente. As aulas são personalizadas conforme seus objetivos, usando materiais autênticos como vídeos, músicas e textos, além de exercícios adaptados ao seu nível.</p>
+                <p className='text-center text-2xl lg:text-24xl  text-treetop'>Meu método une prática comunicativa, gramática aplicada e imersão cultural para um aprendizado ágil e eficiente. Aulas personalizadas, com materiais autênticos—vídeos, músicas, textos—e exercícios adaptados ao seu nível, oferecendo uma experiência dinâmica e resultados rápidos.</p>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
                     {Aboutdata.map((item, i) => (
                         <div key={i} className='hover:bg-navyblue bg-white rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl group mb-5'>
@@ -87,7 +87,7 @@ const Aboutus = () => {
                 </div>
 
                 <h3 className='text-center text-treetop text-4xl tracking-widest'>Níveis</h3>
-                <p className='text-center text-2xl lg:text-24xl  text-treetop'>O Plano Curricular segue os níveis de referência do Quadro Europeu Comum de Referência para as Línguas (QECR):</p>
+                <p className='text-center text-2xl lg:text-24xl  text-treetop'>O Plano Curricular segue os padrões de proficiência do Quadro Europeu Comum de Referência para as Línguas (QECR).</p>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
                     {Levels.map((item, i) => (
                         <div key={i} className='hover:bg-navyblue bg-white rounded-3xl mt-10 pt-10 pl-8 pb-10 pr-6 shadow-xl group'>

@@ -12,7 +12,7 @@ import Testimonials from './components/Testimonials/index';
 import Articles from './components/Articles/index';
 import Joinus from './components/Joinus/index';
 import Quiz from './components/Quiz/index';
-// import Insta from './components/Insta/index';
+import Insta from './components/Insta/index';
 
 
 export default function Home() {

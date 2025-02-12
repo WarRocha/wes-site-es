@@ -12,7 +12,7 @@ const products: ProductType[] = [
     {
         id: 1,
         section: "",
-        link: ['Espanhol online', 'Aulas de espanhol',  'Aulas de espanhol ao vivo'],
+        link: ['Espanhol online', 'Aulas de espanhol',  'Aulas de espanhol ao vivo', 'Espanhol para executivos e empresas'],
     },
     {
         id: 2,
@@ -88,7 +88,7 @@ const footer = () => {
                 </div>
             </div>
 
-            <div className="z-50 fixed bottom-10 left-10 w-fit">
+            <div className="z-50 fixed bottom-10 left-10 w-fit  animate-pulse">
                     <a href="https://wa.me/5511949612697?text=Olá! Tenho interesse em saber mais sobre as aulas de espanhol. Poderia me fornecer mais informações, por favor?" target="_blank">
                     <Image
                         src="images/footer/whatsapp.svg"

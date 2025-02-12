@@ -111,7 +111,9 @@ const Manage = () => {
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.templates}</h3>
                             {/* <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.view}</h3> */}
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.support}</h3>
-                            <button className='text-sm font-bold text-treetop bg-transparent hover:bg-treetop hover:text-white border-2 border-treetop rounded-full py-4 px-12 mb-6'>{items.button}</button>
+                            <button className='animate-pulse text-sm font-bold text-treetop bg-transparent hover:bg-treetop hover:text-white border-2 border-treetop rounded-full py-4 px-12 mb-6'>
+                                <a href="https://wa.me/5511949612697?text=Olá! Tenho interesse em saber mais sobre as aulas de espanhol. Poderia me fornecer mais informações, por favor?">{items.button}</a>
+                            </button>
                             <hr style={{ color: "darkgrey", width: "50%", margin: "auto" }}/>
                         </div>
                     ))}
