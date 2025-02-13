@@ -5,13 +5,13 @@ import { useState } from 'react';
 
 const questions = [
   {
-    question: "Como se diz 'Olá' em espanhol?",
-    options: ["Hola", "Adiós", "Gracias", "Hallo"],
+    question: "Hola, Gabriel, ¿ _________ ? Bien, gracias. Y tú, ¿cómo estás?",
+    options: ["mucho gusto", "cómo vas", "cómo te va", "cómo vas tú"],
     correctAnswer: "Hola"
   },
   {
-    question: "Qual é a tradução de 'Obrigado' em espanhol?",
-    options: ["Por favor", "Gracias", "De nada", "Buenos días"],
+    question: "– Buenos días. ¿Cómo se llama usted? – _________Eduardo",
+    options: ["Me llamo", "Yo se llamo", "Se llamas", "Yo llamo"],
     correctAnswer: "Gracias"
   },
   {
