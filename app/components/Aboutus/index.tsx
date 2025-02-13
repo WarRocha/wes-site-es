@@ -33,19 +33,19 @@ const Aboutdata: datatype[] = [
 
 const Levels: datatype[] = [
     {
-        heading: "A1 Iniciante / A2  Básico",
+        heading: "A1-A2 equivalente ao nível  “básico”",
         imgSrc: "/images/aboutus/imgOne.svg",
         paragraph: 'Para quem está começando a aprender o idioma ou possui conhecimentos iniciais.',
         link: ''
     },
     {
-        heading: "B1 Intermediário / B2 Intermediário Avançado",
+        heading: "B1-B2 equivalente ao nível “intermediário”",
         imgSrc: "/images/aboutus/imgTwo.svg",
         paragraph: 'Para quem já possui alguma fluência e deseja expandir vocabulário, melhorar a compreensão e a expressão.',
         link: ''
     },
     {
-        heading: "B1 Intermediário / B2 Intermediário Avançado",
+        heading: "C1-C2 equivalente ao nível “avançado”",
         imgSrc: "/images/aboutus/imgThree.svg",
         paragraph: 'Para quem busca um domínio mais profundo da língua, com fluência em diversos contextos, incluindo comunicação complexa.',
         link: ''
