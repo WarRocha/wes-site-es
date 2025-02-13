@@ -40,7 +40,7 @@ const Navbar = () => {
 
                             <div className="flex flex-col justify-center flex-shrink-0  border-right">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-treetop'>
-                                    Weslei Rocha 
+                                    Wesley Rocha 
                                 </Link>
                                 <h2 className='text-sm  text-treetop'>
                                     professor de espanhol

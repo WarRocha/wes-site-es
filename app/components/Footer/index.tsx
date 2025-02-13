@@ -35,7 +35,7 @@ const footer = () => {
                     {/* COLUMN-1 */}
 
                     <div className='col-span-4'>
-                        <h3 className='text-white text-4xl font-semibold leading-9 mb-4'> Weslei Rocha</h3>
+                        <h3 className='text-white text-4xl font-semibold leading-9 mb-4'> Wesley Rocha</h3>
                         <span className='text-white text-2xl  leading-9 mb-4 lg:mb-20'>WhatsApp: (+55) 11 949612697</span>
                         <div className='flex gap-4 lg:mt-20'>
                             <div className='footer-icons'>

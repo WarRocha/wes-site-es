@@ -6,25 +6,34 @@ import { useState } from 'react';
 const questions = [
   {
     question: "Hola, Gabriel, ¿ _________ ? Bien, gracias. Y tú, ¿cómo estás?",
-    options: ["mucho gusto", "cómo vas", "cómo te va", "cómo vas tú"],
-    correctAnswer: "Hola"
+    options: ["qué tal", "cómo te va", "cómo estás", "cómo vas tú"],
+    correctAnswer: "qué tal"
   },
   {
-    question: "– Buenos días. ¿Cómo se llama usted? – _________Eduardo",
-    options: ["Me llamo", "Yo se llamo", "Se llamas", "Yo llamo"],
-    correctAnswer: "Gracias"
+    question: "– Buenos días. ¿Cómo se llama usted? – _________ Eduardo.",
+    options: ["Me llamo", "Yo soy", "Mi nombre es", "Yo me llamo"],
+    correctAnswer: "Me llamo"
   },
   {
-    question: "Como se diz 'Bom dia' em espanhol?",
-    options: ["Buenas noches", "Buenos días", "Buenas tardes", "Hola"],
-    correctAnswer: "Buenos días"
+    question: "¿Cuál es la forma correcta de decir 'Eu estou cansado' em espanhol?",
+    options: ["Yo soy cansado", "Yo estoy cansado", "Yo tengo cansado", "Yo soy cansada"],
+    correctAnswer: "Yo estoy cansado"
   },
   {
-    question: "Qual é a tradução de 'Adeus' em espanhol?",
-    options: ["Hola", "Adiós", "Gracias", "Por favor"],
-    correctAnswer: "Adiós"
-  }
-];
+    question: "¿Cómo se diz 'Eu gosto de você' em espanhol?",
+    options: ["Yo te quiero", "Me gustas", "Yo te amo", "Me caes bien"],
+    correctAnswer: "Me gustas"
+  },
+  {
+    question: "¿Qué tiempo verbal es 'hablaría'?",
+    options: ["Presente", "Futuro", "Condicional", "Imperfecto"],
+    correctAnswer: "Condicional"
+  },
+  {
+    question: "¿Cómo se conjuga el verbo 'tener' en la primera persona del singular en pretérito?",
+    options: ["tengo", "tuve", "tenía", "tendré"],
+  },
+]
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);

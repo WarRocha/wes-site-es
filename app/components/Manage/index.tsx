@@ -15,7 +15,7 @@ const names = [
         // view: "Calendar View",
         support: 'Aulas online',
         category: 'monthly',
-        button: "Escoha esse"
+        button: "Escolha esse"
    
     },
     {
@@ -34,13 +34,13 @@ const names = [
         heading: "Semi-Intensivo",
         price: 440,
         user: ' 2 horas',
-        button: "Escoha esse",
         profiles: '1 encontro por semana ou 2 encontros de 1 hora cada',
         // posts: '100 Scheduled Posts Per Profile',
         templates: " Imersão rápida no idioma, ideal para quem tem prazos apertados, como preparação para viagens ou exames.",
         // view: "Calendar View",
         support: 'Aulas online',
-        category: 'monthly'
+        category: 'monthly',
+        button: "Escolha esse"
     },
 
 
