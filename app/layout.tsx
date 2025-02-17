@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="br">
+    <html lang="pt-BR">
       <head>
         {/* Add the Google Analytics script */}
         <Script
