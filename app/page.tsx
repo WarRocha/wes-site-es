@@ -14,7 +14,7 @@ export default function Home() {
       <Dedicated />
       <Aboutus />
       <Manage />
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Quiz/>
       <FAQ />
     </main>

@@ -10,7 +10,7 @@ const names = [
         price: 180,
         user: '1 hora',
         profiles: '1 encontro por semana',
-        // posts: '100 Scheduled Posts Per Profile',
+        posts: 'por mês',
         templates: "Aulas acessíveis para pessoas que necessitam de apoio financeiro, com o mesmo foco de aprendizado das outras modalidades, mediante preenchimento de formulário de bolsa.",
         // view: "Calendar View",
         support: 'Aulas online',
@@ -23,7 +23,7 @@ const names = [
         price: 240,
         user: '1 hora',
         profiles: '1 encontro por semana',
-        // posts: '5 Scheduled Posts Per Profile',
+        posts: 'por mês',
         templates: " Abordagem equilibrada, focando em gramática, conversação e atividades práticas para quem busca um aprendizado consistente.",
         // view: "Calendar View",
         support: 'Aulas online',
@@ -35,7 +35,7 @@ const names = [
         price: 440,
         user: ' 2 horas',
         profiles: '1 encontro por semana ou 2 encontros de 1 hora cada',
-        // posts: '100 Scheduled Posts Per Profile',
+        posts: 'por mês',
         templates: " Imersão rápida no idioma, ideal para quem tem prazos apertados, como preparação para viagens ou exames.",
         // view: "Calendar View",
         support: 'Aulas online',
@@ -104,10 +104,10 @@ const Manage = () => {
                     {filteredData.map((items, i) => (
                         <div className='manageTabs text-center p-10' key={i}>
                             <h4 className='text-2xl font-bold mb-3'>{items.heading}</h4>
-                            <h2 className='text-5xl sm:text-65xl font-extrabold mb-3'>${items.price}</h2>
+                            <span className='text-5xl sm:text-65xl font-extrabold mb-3'>${items.price}</span>
+                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.posts}</h3>
                             <p className='text-sm font-medium text-darkgrey mb-6'>{items.user}</p>
                             <h3 className='text-sm font-medium text-darkgrey mb-3 mt-6'>{items.profiles}</h3>
-                            {/* <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.posts}</h3> */}
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.templates}</h3>
                             {/* <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.view}</h3> */}
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.support}</h3>

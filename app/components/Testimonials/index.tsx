@@ -84,29 +84,36 @@ const MultipleItems = () => {
           <h3 className="text-6xl lg:text-70xl font-bold text-treetop">comentários</h3>
         </div>
 
-        // @ts-ignore
         <Slider {...settings}>
-          {postData.map((items, i) => (
-            <div key={i} className="relative">
-              <div className="bg-white test-sha m-3 p-10 my-20 rounded-3xl">
-                <Image src={items.imgSrc} alt={items.imgSrc} width={71} height={71} className="rounded-full inline-block m-auto absolute test-pos" />
-                <h4 className="text-base font-medium text-testColor my-4">{items.comment}</h4>
-                <hr style={{ color: "lightgrey" }} />
-                <div className="flex justify-between">
-                  <div>
-                    <h3 className="text-base font-medium pt-4 pb-2">{items.name}</h3>
-                  </div>
-                  <div className="flex">
-                    <StarIcon width={20} className="star" />
-                    <StarIcon width={20} className="star" />
-                    <StarIcon width={20} className="star" />
-                    <StarIcon width={20} className="star" />
-                    <StarIcon width={20} className="star" />
+          <>
+            {postData.map((items, i) => (
+              <div key={i} className="relative">
+                <div className="bg-white test-sha m-3 p-10 my-20 rounded-3xl">
+                  <Image
+                    src={items.imgSrc}
+                    alt={items.imgSrc}
+                    width={71}
+                    height={71}
+                    className="rounded-full inline-block m-auto absolute test-pos"
+                  />
+                  <h4 className="text-base font-medium text-testColor my-4">{items.comment}</h4>
+                  <hr style={{ color: "lightgrey" }} />
+                  <div className="flex justify-between">
+                    <div>
+                      <h3 className="text-base font-medium pt-4 pb-2">{items.name}</h3>
+                    </div>
+                    <div className="flex">
+                      <StarIcon width={20} className="star" />
+                      <StarIcon width={20} className="star" />
+                      <StarIcon width={20} className="star" />
+                      <StarIcon width={20} className="star" />
+                      <StarIcon width={20} className="star" />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </>
         </Slider>
       </div>
     </div>
