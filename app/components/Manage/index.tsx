@@ -104,7 +104,7 @@ const Manage = () => {
                     {filteredData.map((items, i) => (
                         <div className='manageTabs text-center p-10' key={i}>
                             <h4 className='text-2xl font-bold mb-3'>{items.heading}</h4>
-                            <span className='text-5xl sm:text-65xl font-extrabold mb-3'>${items.price}</span>
+                            <span className='text-5xl sm:text-65xl font-extrabold mb-3'>R${items.price}</span>
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.posts}</h3>
                             <p className='text-sm font-medium text-darkgrey mb-6'>{items.user}</p>
                             <h3 className='text-sm font-medium text-darkgrey mb-3 mt-6'>{items.profiles}</h3>

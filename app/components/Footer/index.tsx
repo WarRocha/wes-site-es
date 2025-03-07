@@ -22,7 +22,7 @@ const products: ProductType[] = [
     {
         id: 3,
         section: "",
-        link: ['Aulas de espanhol para iniciantes', 'Aulas de espanhol particular', 'Aulas de espanhol ao vivo', 'Professor de espanhol particular']
+        link: ['Aulas de espanhol para iniciantes', 'Aulas de espanhol particular', 'Professor de espanhol particular']
     }
 ]
 

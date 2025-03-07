@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Dedicated = () => {
     return (
@@ -21,6 +22,11 @@ const Dedicated = () => {
                         <p className="font-medium text-treetop text-2xl mt-5 text-center lg:text-start">Atuei em escolas renomadas, no ensino de português para migrantes e em projetos de educação inclusiva, desenvolvendo uma abordagem prática e acolhedora. Ofereço aulas personalizadas para ajudá-lo(a) a alcançar seus objetivos com o espanhol, seja para viagens, trabalho ou crescimento pessoal. Vamos nessa jornada juntos?</p>
                         <h2 className="text-2xl text-transparent  lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start">Professora online de espanhol</h2>
                         {/* <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start"> </p> */}
+                    </div>
+                    <div className='flex gap-4 lg:mt-20'>
+                            <div className='footer-icons'>
+                                <Link href="https://www.linkedin.com/in/wesley-santos-rocha-171603ab/"><Image src={'images/footer/linkdin.svg'} alt="facebook" width={20} height={20} /></Link>
+                            </div>
                     </div>
 
                 </div>
