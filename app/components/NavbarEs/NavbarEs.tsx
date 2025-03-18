@@ -40,10 +40,10 @@ const NavbarEs = () => {
 
                             <div className="flex flex-col justify-center flex-shrink-0  border-right">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-EmeraldGreen'>
-                                    Wesley Rocha 
+                                Hablas espanhol
                                 </Link>
                                 <h2 className='text-sm  text-EmeraldGreen'>
-                                    professo de espanhol
+                                    Wesley Rocha - professo de espanhol
                                 </h2>
                             </div>
 
