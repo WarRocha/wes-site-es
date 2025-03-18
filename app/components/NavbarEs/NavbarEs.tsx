@@ -39,10 +39,10 @@ const NavbarEs = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-col justify-center flex-shrink-0  border-right">
-                                <Link href="/" className='text-2xl sm:text-4xl font-semibold text-hoblue'>
+                                <Link href="/" className='text-2xl sm:text-4xl font-semibold text-EmeraldGreen'>
                                     Wesley Rocha 
                                 </Link>
-                                <h2 className='text-sm  text-hoblue'>
+                                <h2 className='text-sm  text-EmeraldGreen'>
                                     professo de espanhol
                                 </h2>
                             </div>
@@ -59,7 +59,7 @@ const NavbarEs = () => {
                                             href={item.href}
                                             className={classNames(
                                                 item.current ? 'bg-gray-900' : 'font-blue hover:text-black',
-                                                'px-3 py-4 rounded-md text-lg font-normal text-hoblue'
+                                                'px-3 py-4 rounded-md text-lg font-normal text-EmeraldGreen'
                                             )}
                                             aria-current={item.href ? 'page' : undefined}
                                         >

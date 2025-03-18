@@ -46,7 +46,7 @@ const names = [
 
 ]
 
-const Manage = () => {
+const EsManage = () => {
     
     const [enabled, setEnabled] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState('monthly');
@@ -124,4 +124,4 @@ const Manage = () => {
     );
 }
 
-export default Manage;
+export default EsManage;

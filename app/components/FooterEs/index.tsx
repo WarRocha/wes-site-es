@@ -28,14 +28,14 @@ const products: ProductType[] = [
 
 const footerEs = () => {
     return (
-        <div className="bg-treetop -mt-10" id="first-section">
+        <div className="bg-EmeraldGreen -mt-10" id="first-section">
             <div className="mx-auto max-w-2xl pt-40 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="mt-5 grid gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
 
                     {/* COLUMN-1 */}
 
                     <div className='col-span-4'>
-                        <h3 className='text-white text-4xl font-semibold leading-9 mb-4'> Wesley Rocha</h3>
+                        <h3 className='text-white text-4xl font-semibold leading-9 mb-4'> Wesley Rochaaa</h3>
                         <span className='text-white text-2xl  leading-9 mb-4 lg:mb-20'>WhatsApp: (+55) 11 949612697</span>
                         <div className='flex gap-4 lg:mt-20'>
                             <div className='footer-icons'>

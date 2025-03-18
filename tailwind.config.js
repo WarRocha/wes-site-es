@@ -41,7 +41,9 @@ module.exports = {
       'bggrey' : '#DDDDDD',
       'footer' : 'rgba(226, 223, 223, 0.75)',
       'linegrey' : "#C4C4C4",
-      'treetop' : "#E2725B"
+      'treetop' : "#E2725B",
+      'EmeraldGreen': '#2A9D8F'
+      
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
