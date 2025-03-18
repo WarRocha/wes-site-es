@@ -15,7 +15,7 @@ const Banner = () => {
                         <h1 className='text-6xl lg:text-70xl font-bold text-treetop'>
                             Aulas de espanhol online<br />
                         </h1>
-                        <p className="font-medium text-treetop text-2xl mt-5 text-center lg:text-start">Cansado de aulas gravadas sem interação? Ofereço aulas de espanhol ao vivo e personalizadas, focadas nas suas necessidades: comunicação, gramática ou leitura. Com experiência e conhecimento cultural, ensino de forma prática e eficiente. Aqui, o aprendizado é feito sob medida para você!
+                        <p className="font-medium text-treetop text-2xl mt-5 text-center lg:text-start">Chega de aulas gravadas sem interação! Aprenda espanhol ao vivo, com aulas personalizadas de acordo com suas necessidades: conversação, gramática ou leitura. Com experiência e conhecimento cultural, ensino de forma prática, dinâmica e eficiente. Seu aprendizado será sob medida, no seu ritmo e com total suporte. Experimente uma nova forma de aprender espanhol!
 </p>
                     </div>
                     <div className='my-7 text-center lg:text-start'>

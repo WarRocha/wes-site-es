@@ -14,9 +14,9 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Sobre', href: 'https://warrocha.github.io/wes-site-es/#aboutus-section', current: false },
-    { name: 'Servicios', href: 'https://warrocha.github.io/wes-site-es/#services-section', current: false },
-    { name: 'Dudas', href: 'https://warrocha.github.io/wes-site-es/#faq-section', current: false }
+    { name: 'En', href: 'https://warrocha.github.io/wes-site-es/hispanohablantes/#aboutus-section', current: false },
+    { name: 'Servicios', href: 'https://warrocha.github.io/wes-site-es/hispanohablantes/#services-section', current: false },
+    { name: 'Dudas', href: 'https://warrocha.github.io/wes-site-es/hispanohablantes/#faq-section', current: false }
     // { name: 'Blog', href: '#blog-section', current: false },
     // { name: 'Testimonial', href: '#testimonial-section', current: false },
 ]
@@ -25,12 +25,12 @@ function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
 }
 
-const Navbar = () => {
+const NavbarEs = () => {
 
     const [isOpen, setIsOpen] = React.useState(false);
 
     return (
-        <Disclosure as="nav" className="navbar">
+        <Disclosure as="nav" className="NavbarEs">
             <>
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-8">
                     <div className="relative flex h-12 sm:h-20 items-center">
@@ -39,11 +39,11 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-col justify-center flex-shrink-0  border-right">
-                                <Link href="/" className='text-2xl sm:text-4xl font-semibold text-treetop'>
+                                <Link href="/" className='text-2xl sm:text-4xl font-semibold text-hoblue'>
                                     Wesley Rocha 
                                 </Link>
-                                <h2 className='text-sm  text-treetop'>
-                                    professor de espanhol
+                                <h2 className='text-sm  text-hoblue'>
+                                    professo de espanhol
                                 </h2>
                             </div>
 
@@ -59,7 +59,7 @@ const Navbar = () => {
                                             href={item.href}
                                             className={classNames(
                                                 item.current ? 'bg-gray-900' : 'font-blue hover:text-black',
-                                                'px-3 py-4 rounded-md text-lg font-normal text-treetop'
+                                                'px-3 py-4 rounded-md text-lg font-normal text-hoblue'
                                             )}
                                             aria-current={item.href ? 'page' : undefined}
                                         >
@@ -71,7 +71,7 @@ const Navbar = () => {
                             </div>
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>
                                 <Link
-                                  href={'/hispanohablantes'}
+                                  href={'#hispanohablantes'}
                                   >
                                    hispanohablantes
                                 </Link>
@@ -101,4 +101,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default NavbarEs;

@@ -11,21 +11,21 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
     {
-        heading: "Conversação",
+        heading: "Gramática Aplicada",
         imgSrc: "/images/aboutus/imgOne.svg",
-        paragraph: 'Começamos com atividades focadas na comunicação oral, como diálogos, simulações de situações cotidianas e discussões sobre temas atuais. Este é o momento para ganhar confiança e fluência na fala. (Aqui você pratica!)',
+        paragraph: 'A gramática é trabalhada de forma prática, sempre conectada a situações do cotidiano. As explicações são claras e aplicadas de maneira que você possa usá-la de forma eficaz no uso real do idioma.',
         link: ''
     },
     {
-        heading: "Gramática aplicada",
+        heading: "Atividades Práticas",
         imgSrc: "/images/aboutus/imgTwo.svg",
-        paragraph: 'Em seguida, trabalhamos a gramática de forma prática, conectada ao uso real do idioma. A gramática é explicada de maneira clara e aplicada em contextos do dia a dia, para que você saiba como usá-la efetivamente. (Aqui o aprendizado se fixa!)',
+        paragraph: 'São realizados exercícios interativos, como interpretação de textos, audições e tarefas criativas, além da exploração de aspectos culturais por meio de materiais autênticos. Isso permite o contato com o espanhol real e diversificado.',
         link: ''
     },
     {
-        heading: "Atividades práticas",
+        heading: "Conversação",
         imgSrc: "/images/aboutus/imgThree.svg",
-        paragraph: 'Resumo: Realizamos exercícios interativos, como interpretação de textos, audições e tarefas criativas, além de explorar aspectos culturais com materiais autênticos, promovendo o contato com o espanhol real e diverso. (Aqui você aprende temas novos!)',
+        paragraph: 'As atividades focam na comunicação oral por meio de diálogos, simulações de situações cotidianas e discussões sobre temas atuais. O objetivo é desenvolver confiança e fluência na fala, garantindo uma prática dinâmica e eficaz.',
         link: ''
     },
 ]
@@ -33,33 +33,39 @@ const Aboutdata: datatype[] = [
 
 const Levels: datatype[] = [
     {
-        heading: "A1-A2 equivalente ao nível  “básico”",
+        heading: "A1: Nível Iniciante",
         imgSrc: "/images/aboutus/imgOne.svg",
-        paragraph: 'Para quem está começando a aprender o idioma ou possui conhecimentos iniciais.',
+        paragraph: 'Ideal para quem está começando a aprender o idioma. A ênfase está em comunicar-se de forma simples em situações cotidianas, utilizando expressões básicas e vocabulário essencial.',
         link: ''
     },
     {
-        heading: "B1-B2 equivalente ao nível “intermediário”",
+        heading: "A2: Nível Pré-Intermediário",
         imgSrc: "/images/aboutus/imgTwo.svg",
-        paragraph: 'Para quem já possui alguma fluência e deseja expandir vocabulário, melhorar a compreensão e a expressão.',
+        paragraph: ' Para quem já possui conhecimentos iniciais e deseja ampliar o vocabulário. A prática se concentra em interações sobre rotinas e contextos familiares, desenvolvendo a habilidade de se expressar de forma mais confiante.',
         link: ''
     },
     {
-        heading: "C1-C2 equivalente ao nível “avançado”",
+        heading: "B1: Nível Intermediário",
         imgSrc: "/images/aboutus/imgThree.svg",
-        paragraph: 'Para quem busca um domínio mais profundo da língua, com fluência em diversos contextos, incluindo comunicação complexa.',
+        paragraph: 'Voltado a quem busca melhorar a fluência e a compreensão. As atividades incluem discussões sobre temas cotidianos e pessoais, facilitando uma comunicação mais natural e articulada.',
         link: ''
     },
     {
-        heading: "Conversação",
+        heading: "B2: Nível Intermediário Avançado",
         imgSrc: "/images/aboutus/imgThree.svg",
-        paragraph: 'Foco na prática oral para melhorar a fluência e a confiança ao falar, em diversos contextos',
+        paragraph: 'Para quem deseja aperfeiçoar a precisão ao se comunicar. A prática envolve debates sobre questões sociais e culturais, permitindo a argumentação mais detalhada e a expressão de opiniões mais elaboradas.',
         link: ''
     },
     {
-        heading: "Espanhol para Objetivos Específicos",
+        heading: "C1: Nível Avançado",
         imgSrc: "/images/aboutus/imgThree.svg",
-        paragraph: 'Aulas direcionadas a viagens, negócios, entre outros, com foco na comunicação para situações específicas.',
+        paragraph: 'Indicado para quem já domina o idioma e quer refiná-lo. As atividades envolvem debates sobre tópicos complexos, com foco em expressar ideias de maneira clara e aprofundada.',
+        link: ''
+    },
+    {
+        heading: "C2: Nível Proficiente",
+        imgSrc: "/images/aboutus/imgThree.svg",
+        paragraph: 'Para quem tem total fluência e busca manter a comunicação com naturalidade em qualquer contexto. A prática aborda discussões abstratas e técnicas com alta sofisticação.',
         link: ''
     },
 ]
@@ -70,8 +76,8 @@ const Aboutus = () => {
         <div id="aboutus-section">
             <div className='mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 bg-lightgrey rounded-3xl relative'>
                 <Image src="images/aboutus/dots.svg" width={100} height={100} alt="dots-image" className="absolute bottom-1 -left-20" />
-                <h3 className='text-center text-treetop text-4xl tracking-widest'>Meu método</h3>
-                <p className='text-center text-2xl lg:text-24xl  text-treetop'>Meu método une prática comunicativa, gramática aplicada e imersão cultural para um aprendizado ágil e eficiente. Aulas personalizadas, com materiais autênticos—vídeos, músicas, textos—e exercícios adaptados ao seu nível, oferecendo uma experiência dinâmica e resultados rápidos.</p>
+                <h3 className='text-center text-treetop text-4xl tracking-widest'>Método</h3>
+                <p className='text-center text-2xl lg:text-24xl  text-treetop'>A combinação de prática comunicativa, gramática aplicada e imersão cultural garante um aprendizado natural e eficiente. As aulas são personalizadas e utilizam materiais autênticos — vídeos, músicas, textos e atividades interativas — para tornar o processo dinâmico. Os exercícios são adaptados ao nível de cada estudante, proporcionando progresso real e resultados rápidos.</p>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
                     {Aboutdata.map((item, i) => (
                         <div key={i} className='hover:bg-navyblue bg-white rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl group mb-5'>
@@ -86,8 +92,8 @@ const Aboutus = () => {
                     ))}
                 </div>
 
-                <h3 className='text-center text-treetop text-4xl tracking-widest'>Níveis</h3>
-                <p className='text-center text-2xl lg:text-24xl  text-treetop'>O Plano Curricular segue os padrões de proficiência do Quadro Europeu Comum de Referência para as Línguas (QECR).</p>
+                <h3 className='text-center text-treetop text-4xl tracking-widest'>Níveis de Ensino</h3>
+                <p className='text-center text-2xl lg:text-24xl  text-treetop'>O Plano Curricular segue os níveis de proficiência do Quadro Europeu Comum de Referência para as Línguas (QECR), garantindo um aprendizado progressivo e eficaz em cada etapa.</p>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
                     {Levels.map((item, i) => (
                         <div key={i} className='hover:bg-navyblue bg-white rounded-3xl mt-10 pt-10 pl-8 pb-10 pr-6 shadow-xl group'>
