@@ -58,10 +58,10 @@ const names = [
     {
         heading: "Hablas Social",
         user: '1 hora',
-        profiles: '1h por semana - Online',
+        profiles: '1h por semana',
         posts: 'por mês',
         templates: "Curso acessível, com o mesmo foco de aprendizado das modalidades regulares, disponível para quem necessita de apoio financeiro, mediante preenchimento de formulário de bolsa.",
-        // view: "Calendar View",
+        view: "Valor a definir",
         support: 'Aulas online',
         category: 'monthly',
         button: "Escolha esse"
@@ -70,7 +70,7 @@ const names = [
         heading: "Hablas Más ",
         posts: 'por mês',
         templates: "Precisa de mais horas por semana? Entre em contato por e-mail [link] ou whatsapp [link].",
-        // view: "Calendar View",
+        view: "Valor a definir",
         support: 'Aulas online',
         category: 'monthly',
         button: "Escolha esse"
@@ -94,7 +94,7 @@ const EsManage = () => {
     return (
         <div id="services-section">
             <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
-                <h3 className='text-center text-4xl sm:text-20xl text-treetop'>Ofereço três opções de aulas, adaptáveis à sua rotina e necessidades, com duração e frequência flexíveis.</h3>
+                <h3 className='text-center text-4xl sm:text-20xl text-treetop'>Ofereço opções de aulas adaptáveis à sua rotina e necessidades, com duração e frequência flexíveis.</h3>
 
 
                 <div className='md:flex md:justify-around mt-20'>
@@ -138,11 +138,11 @@ const EsManage = () => {
                         <div className='manageTabs text-center p-10' key={i}>
                             <h4 className='text-2xl font-bold mb-3'>{items.heading}</h4>
                             <span className='text-5xl sm:text-65xl font-extrabold mb-3'>R${items.price}</span>
+                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.view}</h3>
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.posts}</h3>
-                            <p className='text-sm font-medium text-darkgrey mb-6'>{items.user}</p>
+                            {/* <p className='text-sm font-medium text-darkgrey mb-6'>{items.user}</p> */}
                             <h3 className='text-sm font-medium text-darkgrey mb-3 mt-6'>{items.profiles}</h3>
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.templates}</h3>
-                            {/* <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.view}</h3> */}
                             <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.support}</h3>
                             <button className='animate-pulse text-sm font-bold text-treetop bg-transparent hover:bg-treetop hover:text-white border-2 border-treetop rounded-full py-4 px-12 mb-6'>
                                 <a href="https://wa.me/5511949612697?text=Olá! Tenho interesse em saber mais sobre as aulas de espanhol. Poderia me fornecer mais informações, por favor?">{items.button}</a>

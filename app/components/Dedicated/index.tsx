@@ -21,7 +21,7 @@ const Dedicated = () => {
                         <p className="font-medium text-treetop text-2xl mt-5 text-center lg:text-start">Olá! Sou Wesley, professor de espanhol especializado para falantes de português.</p>
                         <p className="font-medium text-treetop text-2xl mt-5 text-center lg:text-start">Formado em Letras pela USP, tenho certificação DELE C1 pelo Instituto Cervantes e vivências acadêmicas na Universidad de Chile e na Universidad Nacional Mayor de San Marcos, que enriqueceram minha compreensão cultural e linguística.</p>
                         <p className="font-medium text-treetop text-2xl mt-5 text-center lg:text-start">Minha experiência inclui o ensino em escolas regulares e centros de idiomas, além de projetos de educação inclusiva e ensino de português para migrantes, sempre com uma abordagem prática e acolhedora.</p>
-                        <p className="font-medium text-treetop text-2xl mt-5 text-center lg:text-start">Ofereço aulas personalizadas para que você alcance seus objetivos com o espanhol, seja para viagens, trabalho ou desenvolvimento pessoal. Comece sua jornada no espanhol ]comigo</p>
+                        <p className="font-medium text-treetop text-2xl mt-5 text-center lg:text-start">Ofereço aulas personalizadas para que você alcance seus objetivos com o espanhol, seja para viagens, trabalho ou desenvolvimento pessoal. Comece sua jornada no espanhol comigo.</p>
                         <h2 className="text-2xl text-transparent  lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start">Professora online de espanhol</h2>
                         {/* <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start"> </p> */}
                     </div>

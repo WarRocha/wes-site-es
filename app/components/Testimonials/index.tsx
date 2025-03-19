@@ -49,7 +49,7 @@ const MultipleItems = () => {
             slidesPerView={3}
             spaceBetween={30}
             centeredSlides={true}
-            loop={false}
+            loop={true}
             autoplay={{
               delay: 2000,
               disableOnInteraction: false,

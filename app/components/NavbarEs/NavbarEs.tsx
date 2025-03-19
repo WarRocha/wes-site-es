@@ -15,7 +15,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'En', href: 'https://warrocha.github.io/wes-site-es/hispanohablantes/#aboutus-section', current: false },
-    { name: 'Servicios', href: 'https://warrocha.github.io/wes-site-es/hispanohablantes/#services-section', current: false },
+    { name: 'Serviço', href: 'https://warrocha.github.io/wes-site-es/hispanohablantes/#services-section', current: false },
     { name: 'Dudas', href: 'https://warrocha.github.io/wes-site-es/hispanohablantes/#faq-section', current: false }
     // { name: 'Blog', href: '#blog-section', current: false },
     // { name: 'Testimonial', href: '#testimonial-section', current: false },
