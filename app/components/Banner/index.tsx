@@ -21,7 +21,7 @@ const Banner = () => {
                     <div className='my-7 text-center lg:text-start'>
                         <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-salmao text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-treetop bg-treetop'>
                         <a href="https://wa.me/5511949612697?text=Olá! Tenho interesse em saber mais sobre as aulas de espanhol. Poderia me fornecer mais informações, por favor?" target="_blank">
-                        Agende uma conversa
+                        Comece agora mesmo!
                         </a>
                         </button>
                     </div>

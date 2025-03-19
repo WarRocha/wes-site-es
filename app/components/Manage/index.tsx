@@ -6,12 +6,12 @@ import Image from 'next/image';
 
 const names = [
     {
-        heading: "Preço Social",
-        price: 180,
+        heading: "Hablas 1",
+        price: 200,
         user: '1 hora',
-        profiles: '1 encontro por semana',
+        profiles: '1h por semana ',
         posts: 'por mês',
-        templates: "Aulas acessíveis para pessoas que necessitam de apoio financeiro, com o mesmo foco de aprendizado das outras modalidades, mediante preenchimento de formulário de bolsa.",
+        templates: "Aulas acessíveis para pessoas com apoio financeiro, com o mesmo foco de aprendizado das demais modalidades, mediante preenchimento de formulário de bolsa.",
         // view: "Calendar View",
         support: 'Aulas online',
         category: 'monthly',
@@ -19,24 +19,57 @@ const names = [
    
     },
     {
-        heading: "Regular",
-        price: 240,
-        user: '1 hora',
-        profiles: '1 encontro por semana',
+        heading: "Hablas 2",
+        price: 300,
+        user: '1h30 hora',
+        profiles: '1h30 por semana',
         posts: 'por mês',
-        templates: " Abordagem equilibrada, focando em gramática, conversação e atividades práticas para quem busca um aprendizado consistente.",
+        templates: "Abordagem equilibrada, com foco em gramática, conversação e atividades práticas, para quem busca um aprendizado consistente.",
         // view: "Calendar View",
         support: 'Aulas online',
         category: 'monthly',
         button: "Escolha esse",
     },
     {
-        heading: "Semi-Intensivo",
-        price: 440,
+        heading: "Hablas 3 ",
+        price: 400,
         user: ' 2 horas',
-        profiles: '1 encontro por semana ou 2 encontros de 1 hora cada',
+        profiles: '2h por semana ',
         posts: 'por mês',
-        templates: " Imersão rápida no idioma, ideal para quem tem prazos apertados, como preparação para viagens ou exames.",
+        templates: " Imersão rápida no idioma, ideal para quem precisa de resultados rápidos, como preparação para viagens ou exames",
+        // view: "Calendar View",
+        support: 'Aulas online',
+        category: 'monthly',
+        button: "Escolha esse"
+    },
+    {
+        heading: "Hablas Mucho",
+        price: 250,
+        user: '1 hora',
+        profiles: '1h por semana',
+        posts: 'por mês',
+        templates: "Encontros de conversação com foco na melhora da fluência e da autoconfiança ao falar …",
+        // view: "Calendar View",
+        support: 'Aulas online',
+        category: 'monthly',
+        button: "Escolha esse"
+    },
+
+    {
+        heading: "Hablas Social",
+        user: '1 hora',
+        profiles: '1h por semana - Online',
+        posts: 'por mês',
+        templates: "Curso acessível, com o mesmo foco de aprendizado das modalidades regulares, disponível para quem necessita de apoio financeiro, mediante preenchimento de formulário de bolsa.",
+        // view: "Calendar View",
+        support: 'Aulas online',
+        category: 'monthly',
+        button: "Escolha esse"
+    },
+    {
+        heading: "Hablas Más ",
+        posts: 'por mês',
+        templates: "Precisa de mais horas por semana? Entre em contato por e-mail [link] ou whatsapp [link].",
         // view: "Calendar View",
         support: 'Aulas online',
         category: 'monthly',
@@ -64,20 +97,20 @@ const EsManage = () => {
                 <h3 className='text-center text-4xl sm:text-20xl text-treetop'>Ofereço três opções de aulas, adaptáveis à sua rotina e necessidades, com duração e frequência flexíveis.</h3>
 
 
-                {/* <div className='md:flex md:justify-around mt-20'>
+                <div className='md:flex md:justify-around mt-20'>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Free 15-day trial</h4>
+                        <h4 className='text-lg font-semibold'>Imersão cultural </h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Unlimited Team Members</h4>
+                        <h4 className='text-lg font-semibold'>Flexibilidade de horários</h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Cancel Anytime</h4>
+                        <h4 className='text-lg font-semibold'>Material exclusivo</h4>
                     </div>
-                </div> */}
+                </div>
 
 
                 <div className='mt-6 relative'>

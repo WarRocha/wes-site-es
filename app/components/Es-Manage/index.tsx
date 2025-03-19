@@ -6,41 +6,41 @@ import Image from 'next/image';
 
 const names = [
     {
-        heading: "Preço Social",
+        heading: "Precio social",
         price: 180,
         user: '1 hora',
         profiles: '1 encontro por semana',
-        posts: 'por mês',
-        templates: "Aulas acessíveis para pessoas que necessitam de apoio financeiro, com o mesmo foco de aprendizado das outras modalidades, mediante preenchimento de formulário de bolsa.",
+        posts: 'por mes',
+        templates: "Clases asequibles para personas que necesitan apoyo económico, con el mismo enfoque de aprendizaje que otras modalidades, previa cumplimentación de un formulario de beca.",
         // view: "Calendar View",
         support: 'Aulas online',
         category: 'monthly',
-        button: "Escolha esse"
+        button: "Elige este"
    
     },
     {
         heading: "Regular",
         price: 240,
         user: '1 hora',
-        profiles: '1 encontro por semana',
-        posts: 'por mês',
-        templates: " Abordagem equilibrada, focando em gramática, conversação e atividades práticas para quem busca um aprendizado consistente.",
+        profiles: '1 reunión por semana',
+        posts: 'por mes',
+        templates: "Enfoque equilibrado, centrado en la gramática, la conversación y las actividades prácticas para quienes buscan un aprendizaje consistente.",
         // view: "Calendar View",
         support: 'Aulas online',
         category: 'monthly',
-        button: "Escolha esse",
+        button: "Elige este",
     },
     {
         heading: "Semi-Intensivo",
         price: 440,
         user: ' 2 horas',
-        profiles: '1 encontro por semana ou 2 encontros de 1 hora cada',
-        posts: 'por mês',
-        templates: " Imersão rápida no idioma, ideal para quem tem prazos apertados, como preparação para viagens ou exames.",
+        profiles: '1 reunión por semana o 2 reuniones de 1 hora cada una',
+        posts: 'por mes',
+        templates: "Inmersión lingüística rápida, ideal para quienes tienen plazos ajustados, como prepararse para un viaje o exámenes.",
         // view: "Calendar View",
         support: 'Aulas online',
         category: 'monthly',
-        button: "Escolha esse"
+        button: "Elige este"
     },
 
 
@@ -67,15 +67,15 @@ const Manage = () => {
                 <div className='md:flex md:justify-around mt-20'>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Free 15-day trial</h4>
+                        <h4 className='text-lg font-semibold'>clase de prueba</h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Unlimited Team Members</h4>
+                        <h4 className='text-lg font-semibold'>Inmersión cultural</h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Cancel Anytime</h4>
+                        <h4 className='text-lg font-semibold'>Horarios flexibles</h4>
                     </div>
                 </div>
 
