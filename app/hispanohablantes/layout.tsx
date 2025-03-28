@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Eres hispanohablante y quieres aprender portugués? ¡Estás en el lugar correcto! Nuestro curso de Portugués para Hispanohablantes está diseñado especialmente para ti',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function LayoutEs({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
       <head>
@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <NavbarEs/>
-        {children}
+          {children}
         <FooterEs/>
       </body>
     </html>

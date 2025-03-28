@@ -15,7 +15,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Sobre', href: 'https://warrocha.github.io/wes-site-es/#aboutus-section', current: false },
-    { name: 'Servicios', href: 'https://warrocha.github.io/wes-site-es/#services-section', current: false },
+    { name: 'Serviços', href: 'https://warrocha.github.io/wes-site-es/#services-section', current: false },
     { name: 'Dúvidas', href: 'https://warrocha.github.io/wes-site-es/#faq-section', current: false }
     // { name: 'Blog', href: '#blog-section', current: false },
     // { name: 'Testimonial', href: '#testimonial-section', current: false },

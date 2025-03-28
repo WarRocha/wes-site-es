@@ -97,7 +97,7 @@ const EsManage = () => {
                 <h3 className='text-center text-4xl sm:text-20xl text-treetop'>Ofereço opções de aulas adaptáveis à sua rotina e necessidades, com duração e frequência flexíveis.</h3>
 
 
-                <div className='md:flex md:justify-around mt-20'>
+                {/* <div className='md:flex md:justify-around mt-20'>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
                         <h4 className='text-lg font-semibold'>Imersão cultural </h4>
@@ -110,7 +110,7 @@ const EsManage = () => {
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
                         <h4 className='text-lg font-semibold'>Material exclusivo</h4>
                     </div>
-                </div>
+                </div> */}
 
 
                 <div className='mt-6 relative'>

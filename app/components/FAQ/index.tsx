@@ -6,9 +6,9 @@ const FAQ = () => {
     return (
         <div id="faq-section" className='mx-auto max-w-7xl py-24 lg:px-8 bg-treetop rounded-2xl my-16 faq-bg'>
             {/* <h3 className='text-xl font-normal text-white text-center mb-6'>FAQ</h3> */}
-            <h3 className='text-4xl lg:text-6xl font-semibold text-center text-white'>PERGUNTAS FREQUENTES</h3>
+            <h3 className='text-3xl lg:text-5xl font-semibold text-center text-white'>PERGUNTAS FREQUENTES</h3>
             <div className="w-full px-4 pt-16">
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure>
                         {({ open }) => (
                             <>
@@ -27,7 +27,7 @@ const FAQ = () => {
                     </Disclosure>
                 </div>
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -47,7 +47,7 @@ const FAQ = () => {
                     </Disclosure>
                 </div>
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -66,7 +66,7 @@ const FAQ = () => {
                     </Disclosure>
                 </div>
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -87,7 +87,7 @@ const FAQ = () => {
                 </div>
 
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -109,7 +109,7 @@ const FAQ = () => {
 
 
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -130,7 +130,7 @@ const FAQ = () => {
                     </Disclosure>
                 </div>
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -152,7 +152,7 @@ const FAQ = () => {
                 </div>
 
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -175,7 +175,7 @@ const FAQ = () => {
                 </div>
 
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -199,7 +199,7 @@ const FAQ = () => {
                 </div>
 
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -221,7 +221,7 @@ const FAQ = () => {
                     </Disclosure>
                 </div>
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
@@ -244,7 +244,7 @@ const FAQ = () => {
                 </div>
 
 
-                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6 mb-5">
+                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-7 px-6 mb-5">
                     <Disclosure as="div" className="mt-2">
                         {({ open }) => (
                             <>
