@@ -94,7 +94,7 @@ const EsManage = () => {
     return (
         <div id="services-section">
             <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
-                <h3 className='text-center text-4xl sm:text-20xl text-treetop'>Ofereço opções de aulas adaptáveis à sua rotina e necessidades, com duração e frequência flexíveis.</h3>
+                <h3 className='text-center text-4xl sm:text-20xl text-treetop'>Aulas flexíveis: adaptadas à sua rotina, com horários e carga horária sob medida.</h3>
 
 
                 {/* <div className='md:flex md:justify-around mt-20'>
