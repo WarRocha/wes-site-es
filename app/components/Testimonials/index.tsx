@@ -46,9 +46,9 @@ const MultipleItems = () => {
           <h3 className="text-center text-4xl sm:text-20xl text-treetop">Comentários</h3>
   
           <Swiper
-            slidesPerView={3}
+            slidesPerView={2}
             spaceBetween={30}
-            centeredSlides={true}
+            // centeredSlides={true}
             loop={true}
             autoplay={{
               delay: 2000,
@@ -61,26 +61,26 @@ const MultipleItems = () => {
             modules={[Autoplay, Pagination, Navigation]}
             breakpoints={{
               1200: {
-                slidesPerView: 3,
+                slidesPerView: 2,
               },
               800: {
                 slidesPerView: 2,
               },
-              450: {
+              650: {
                 slidesPerView: 1,
-              },
+              }
             }}
             className="mySwiper"
           >
             {postData.map((items, i) => (
               <SwiperSlide key={i}>
-                <div className="bg-white shadow-lg m-3 p-10 my-20 rounded-3xl">
+                <div className="flex flex-col bg-white shadow-lg m-3 p-10 my-20 rounded-3xl">
                   <Image
                     src={items.imgSrc}
                     alt={items.name}
                     width={71}
                     height={71}
-                    className="rounded-full inline-block m-auto absolute -top-10 left-1/2 transform -translate-x-1/2"
+                    className="rounded-full inline-block m-auto"
                     priority
                   />
                   <h4 className="text-base font-medium text-gray-700 my-4">{items.comment}</h4>
