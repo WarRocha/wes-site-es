@@ -69,13 +69,13 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>
+                            <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-treetop hover:text-white'>
                                 <Link
                                   href={'/hispanohablantes'}
                                   >
                                    hispanohablantes
                                 </Link>
-                            </button> */}
+                            </button>
                             <Contactusform />
                         </div>
 

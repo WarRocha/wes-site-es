@@ -443,9 +443,6 @@ video {
 .-left-20{
   left: -5rem;
 }
-.-top-10{
-  top: -2.5rem;
-}
 .bottom-1{
   bottom: 0.25rem;
 }
@@ -454,9 +451,6 @@ video {
 }
 .left-0{
   left: 0px;
-}
-.left-1\/2{
-  left: 50%;
 }
 .left-10{
   left: 2.5rem;
@@ -671,10 +665,6 @@ video {
 }
 .flex-shrink-0{
   flex-shrink: 0;
-}
-.-translate-x-1\/2{
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .-translate-x-full{
   --tw-translate-x: -100%;
@@ -951,6 +941,10 @@ video {
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 .py-8{
   padding-top: 2rem;
@@ -1368,11 +1362,11 @@ html {
   background-color: aqua;
 }
 
-.faq-bg {
+/* .faq-bg {
   background-image: url('/images/faq/swirl.png');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .bg-testimonial {
   background-image: url('/images/wework/elipse.svg'), url('/images/testimonial/boy.svg'), url('/images/testimonial/girl.svg');
@@ -1849,12 +1843,12 @@ html {
   .lg\:text-start{
     text-align: start;
   }
-  .lg\:text-65xl{
-    font-size: 65px;
+  .lg\:text-5xl{
+    font-size: 3rem;
     line-height: 1;
   }
-  .lg\:text-6xl{
-    font-size: 3.75rem;
+  .lg\:text-65xl{
+    font-size: 65px;
     line-height: 1;
   }
   .lg\:text-xl{

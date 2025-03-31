@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div className="text-center  bg-lightgrey py-24">
-      <h1 className="text-center text-4xl sm:text-20xl text-treetop font-semibold ">Quiz de Espanhol</h1>
+      <h4 className="text-center text-4xl sm:text-20xl text-treetop font-semibold ">Quiz de Espanhol</h4>
       {showScore ? (
         <div className="score-section">
           <h2 className='text-sm font-medium text-darkgrey mb-3 mt-6'>Você acertou {score} de {questions.length} perguntas!</h2>
