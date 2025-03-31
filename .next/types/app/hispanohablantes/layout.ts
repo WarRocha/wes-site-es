@@ -1,4 +1,4 @@
-// File: C:\Users\welli\Desktop\Projetos\Personal\wes-site-es\app\hispanohablantes\layout.tsx
+// File: /Users/warleirocha/Desktop/wes-site-es/app/hispanohablantes/layout.tsx
 import * as entry from '../../../../app/hispanohablantes/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
