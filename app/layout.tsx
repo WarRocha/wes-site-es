@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Aulas de espanhol online',
   description: 'Ofereço aulas de espanhol ao vivo e personalizadas, focadas nas suas necessidades',
   other: {
-    'google-site-verification': 'AszpHctdDA5TCxs-Wfcl58cIZ9lNEkLKSoOWH3OB-KU',
+    'google-site-verification': '8H0p12FT5guOLPyqYVzU570aRUW729FBf9SdiL4ZEcA',
   },
 };
 
