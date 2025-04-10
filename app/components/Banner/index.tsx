@@ -30,7 +30,7 @@ const Banner = () => {
                 {/* COLUMN-2 */}
 
                 <div className=' lg:pt-20 hidden lg:block'>
-                    <Image src="images/banner/banner.svg" alt="Aulas de espanhol online" width={700} height={542} />
+                    <Image src="images/banner/banner.png" alt="Aulas de espanhol online" width={400} height={242} />
                 </div>
 
             </div>
