@@ -188,11 +188,11 @@ html {
   background-color: aqua;
 }
 
-.faq-bg {
+/* .faq-bg {
   background-image: url('/images/faq/swirl.png');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .bg-testimonial {
   background-image: url('/images/wework/elipse.svg'), url('/images/testimonial/boy.svg'), url('/images/testimonial/girl.svg');

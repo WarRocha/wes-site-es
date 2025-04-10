@@ -64,7 +64,7 @@ const Manage = () => {
                 <h3 className='text-center text-4xl sm:text-20xl text-EmeraldGreen'>Ofrezco tres opciones de clases, adaptables a tu rutina y necesidades, con duración y frecuencia flexible.</h3>
 
 
-                <div className='md:flex md:justify-around mt-20'>
+                {/* <div className='md:flex md:justify-around mt-20'>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
                         <h4 className='text-lg font-semibold'>clase de prueba</h4>
@@ -77,7 +77,7 @@ const Manage = () => {
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
                         <h4 className='text-lg font-semibold'>Horarios flexibles</h4>
                     </div>
-                </div>
+                </div> */}
 
 
                 <div className='mt-6 relative'>

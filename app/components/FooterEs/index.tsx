@@ -12,18 +12,8 @@ const products: ProductType[] = [
     {
         id: 1,
         section: "",
-        link: ['Espanhol online', 'Aulas de espanhol',  'Aulas de espanhol ao vivo', 'Espanhol para executivos e empresas'],
+        link: ['Clases de portugués',  'Clases de portugués en vivo', 'Portugués para ejecutivos y empresas'],
     },
-    {
-        id: 2,
-        section: "",
-        link: ['Espanhol presencial', 'Aulas de espanhol para adultos', 'Aulas de espanhol para crianças']
-    },
-    {
-        id: 3,
-        section: "",
-        link: ['Aulas de espanhol para iniciantes', 'Aulas de espanhol particular', 'Professor de espanhol particular']
-    }
 ]
 
 const footerEs = () => {
@@ -35,7 +25,7 @@ const footerEs = () => {
                     {/* COLUMN-1 */}
 
                     <div className='col-span-4'>
-                        <h3 className='text-white text-4xl font-semibold leading-9 mb-4'> Wesley Rochaaa</h3>
+                        <h3 className='text-white text-4xl font-semibold leading-9 mb-4'> Wesley Rocha</h3>
                         <span className='text-white text-2xl  leading-9 mb-4 lg:mb-20'>WhatsApp: (+55) 11 949612697</span>
                         <div className='flex gap-4 lg:mt-20'>
                             <div className='footer-icons'>
