@@ -1139,17 +1139,6 @@ video {
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-<<<<<<< HEAD
-.-hue-rotate-15{
-  --tw-hue-rotate: hue-rotate(-15deg);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-.hue-rotate-15{
-  --tw-hue-rotate: hue-rotate(15deg);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-=======
->>>>>>> 44cfffd7e1f171032c1389ea2ab7dd83170113e9
 .filter{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -1373,19 +1362,11 @@ html {
   background-color: aqua;
 }
 
-<<<<<<< HEAD
-.faq-bg {
-  background-image: url('/images/faq/swirl.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-=======
 /* .faq-bg {
   background-image: url('/images/faq/swirl.png');
   background-repeat: no-repeat;
   background-size: cover;
 } */
->>>>>>> 44cfffd7e1f171032c1389ea2ab7dd83170113e9
 
 .bg-testimonial {
   background-image: url('/images/wework/elipse.svg'), url('/images/testimonial/boy.svg'), url('/images/testimonial/girl.svg');
