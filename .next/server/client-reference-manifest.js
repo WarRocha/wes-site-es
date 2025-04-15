@@ -929,7 +929,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -937,7 +937,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -945,7 +945,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       }
@@ -955,7 +955,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -963,7 +963,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -971,7 +971,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       }
@@ -981,7 +981,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "*",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -989,7 +989,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -997,7 +997,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "default",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1005,7 +1005,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "defaultHead",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1013,7 +1013,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "charSet",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1021,7 +1021,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "name",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1029,7 +1029,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "content",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1037,7 +1037,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"title\"",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1045,7 +1045,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"base\"",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1053,7 +1053,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"meta\"",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1061,7 +1061,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "TODO(prateekbh@)",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1069,7 +1069,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"https",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1077,7 +1077,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "here",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1085,7 +1085,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "https",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1093,7 +1093,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "reduceComponentsToState",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1101,7 +1101,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "headManager",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1109,7 +1109,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "inAmpMode",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       },
@@ -1117,7 +1117,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "value",
         "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+          "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
         ],
         "async": false
       }
@@ -1220,6 +1220,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/components/Es-Manage/index.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Es-Manage/index.tsx",
+        "name": "*",
+        "chunks": [
+          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Es-Manage/index.tsx",
+        "name": "",
+        "chunks": [
+          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Es-Manage/index.tsx",
+        "name": "default",
+        "chunks": [
+          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/components/NavbarEs/Contactus.tsx": {
       "*": {
         "id": "(sc_client)/./app/components/NavbarEs/Contactus.tsx",
@@ -1294,32 +1320,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/components/Es-Manage/index.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/components/Es-Manage/index.tsx",
-        "name": "*",
-        "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/components/Es-Manage/index.tsx",
-        "name": "",
-        "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/components/Es-Manage/index.tsx",
-        "name": "default",
-        "chunks": [
-          "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
         ],
         "async": false
       }
@@ -3227,7 +3227,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3235,7 +3235,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3243,7 +3243,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3251,7 +3251,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3259,7 +3259,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3267,7 +3267,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3275,7 +3275,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3283,7 +3283,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3291,7 +3291,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3299,7 +3299,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3307,7 +3307,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3315,7 +3315,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3323,7 +3323,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3331,7 +3331,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3339,7 +3339,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3347,7 +3347,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3355,7 +3355,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3363,7 +3363,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3371,7 +3371,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3379,7 +3379,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3387,7 +3387,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3395,7 +3395,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3403,7 +3403,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3411,7 +3411,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3419,7 +3419,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3427,7 +3427,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3435,7 +3435,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3443,7 +3443,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3451,7 +3451,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3459,7 +3459,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3467,7 +3467,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3475,7 +3475,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3483,7 +3483,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3491,7 +3491,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3499,7 +3499,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3507,7 +3507,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3515,7 +3515,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3523,7 +3523,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3531,7 +3531,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3539,7 +3539,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3547,7 +3547,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3555,7 +3555,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3563,7 +3563,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3571,7 +3571,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3579,7 +3579,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3587,7 +3587,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3595,7 +3595,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3603,7 +3603,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+        "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
       ],
       "async": false
     },
@@ -3823,6 +3823,30 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/warleirocha/Desktop/wes-site-es/app/components/Es-Manage/index.tsx": {
+      "id": "(app-client)/./app/components/Es-Manage/index.tsx",
+      "name": "*",
+      "chunks": [
+        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+      ],
+      "async": false
+    },
+    "/Users/warleirocha/Desktop/wes-site-es/app/components/Es-Manage/index.tsx#": {
+      "id": "(app-client)/./app/components/Es-Manage/index.tsx",
+      "name": "",
+      "chunks": [
+        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+      ],
+      "async": false
+    },
+    "/Users/warleirocha/Desktop/wes-site-es/app/components/Es-Manage/index.tsx#default": {
+      "id": "(app-client)/./app/components/Es-Manage/index.tsx",
+      "name": "default",
+      "chunks": [
+        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
+      ],
+      "async": false
+    },
     "/Users/warleirocha/Desktop/wes-site-es/app/components/NavbarEs/Contactus.tsx": {
       "id": "(app-client)/./app/components/NavbarEs/Contactus.tsx",
       "name": "*",
@@ -3892,30 +3916,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/hispanohablantes/layout:static/chunks/app/hispanohablantes/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/warleirocha/Desktop/wes-site-es/app/components/Es-Manage/index.tsx": {
-      "id": "(app-client)/./app/components/Es-Manage/index.tsx",
-      "name": "*",
-      "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
-      ],
-      "async": false
-    },
-    "/Users/warleirocha/Desktop/wes-site-es/app/components/Es-Manage/index.tsx#": {
-      "id": "(app-client)/./app/components/Es-Manage/index.tsx",
-      "name": "",
-      "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
-      ],
-      "async": false
-    },
-    "/Users/warleirocha/Desktop/wes-site-es/app/components/Es-Manage/index.tsx#default": {
-      "id": "(app-client)/./app/components/Es-Manage/index.tsx",
-      "name": "default",
-      "chunks": [
-        "app/hispanohablantes/page:static/chunks/app/hispanohablantes/page.js"
       ],
       "async": false
     }
